@@ -1,0 +1,13 @@
+000 BOT 
+001 SUB
+010 BAJ
+011 IZD
+100 DER
+101 BOR
+110 PIN 
+111 PIT
+
+cuadrado4
+repetir
+borrartodo
+pintartodo

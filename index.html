@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Máquina para dibujar</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header>
+    <h1>Máquina para dibujar</h1>
+</header>
+<main>
+    <section id="panel">
+        <div id="c00" class="actual"></div>
+        <div id="c01"></div>
+        <div id="c02"></div>
+        <div id="c03"></div>
+        <div id="c04"></div>
+        <div id="c05"></div>
+        <div id="c06"></div>
+        <div id="c07"></div>
+        <div id="c08"></div>
+        <div id="c09"></div>
+        <div id="c10"></div>
+        <div id="c11"></div>
+        <div id="c12"></div>
+        <div id="c13"></div>
+        <div id="c14"></div>
+        <div id="c15"></div>
+        <div id="c16"></div>
+        <div id="c17"></div>
+        <div id="c18"></div>
+        <div id="c19"></div>
+        <div id="c20"></div>
+        <div id="c21"></div>
+        <div id="c22"></div>
+        <div id="c23"></div>
+        <div id="c24"></div>
+        <div id="c25"></div>
+        <div id="c26"></div>
+        <div id="c27"></div>
+        <div id="c28"></div>
+        <div id="c29"></div>
+        <div id="c30"></div>
+        <div id="c31"></div>
+        <div id="c32"></div>
+        <div id="c33"></div>
+        <div id="c34"></div>
+        <div id="c35"></div>
+        <div id="c36"></div>
+        <div id="c37"></div>
+        <div id="c38"></div>
+        <div id="c39"></div>
+        <div id="c40"></div>
+        <div id="c41"></div>
+        <div id="c42"></div>
+        <div id="c43"></div>
+        <div id="c44"></div>
+        <div id="c45"></div>
+        <div id="c46"></div>
+        <div id="c47"></div>
+        <div id="c48"></div>
+        <div id="c49"></div>
+        <div id="c50"></div>
+        <div id="c51"></div>
+        <div id="c52"></div>
+        <div id="c53"></div>
+        <div id="c54"></div>
+        <div id="c55"></div>
+        <div id="c56"></div>
+        <div id="c57"></div>
+        <div id="c58"></div>
+        <div id="c59"></div>
+        <div id="c60"></div>
+        <div id="c61"></div>
+        <div id="c62"></div>
+        <div id="c63"></div>
+        <div id="c64"></div>
+        <div id="c65"></div>
+        <div id="c66"></div>
+        <div id="c67"></div>
+        <div id="c68"></div>
+        <div id="c69"></div>
+        <div id="c70"></div>
+        <div id="c71"></div>
+        <div id="c72"></div>
+        <div id="c73"></div>
+        <div id="c74"></div>
+        <div id="c75"></div>
+        <div id="c76"></div>
+        <div id="c77"></div>
+        <div id="c78"></div>
+        <div id="c79"></div>
+        <div id="c80"></div>
+        <div id="c81"></div>
+        <div id="c82"></div>
+        <div id="c83"></div>
+        <div id="c84"></div>
+        <div id="c85"></div>
+        <div id="c86"></div>
+        <div id="c87"></div>
+        <div id="c88"></div>
+        <div id="c89"></div>
+        <div id="c90"></div>
+        <div id="c91"></div>
+        <div id="c92"></div>
+        <div id="c93"></div>
+        <div id="c94"></div>
+        <div id="c95"></div>
+        <div id="c96"></div>
+        <div id="c97"></div>
+        <div id="c98"></div>
+        <div id="c99"></div>
+    </section>
+    <section id="resultadoBinario">
+
+    </section>
+</main>
+<footer>
+    <div id="col1" class="col">
+        <input type="radio" id="g1" name="generacion" value="g1" checked>
+        <label for="g1">1GL</label>
+        <input type="radio" id="g2" name="generacion" value="g2">
+        <label for="g2">2GL</label>
+        <input type="radio" id="g3" name="generacion" value="g3">
+        <label for="g3">3GL</label>
+    </div>
+    <div id="col2" class="col">
+        <textarea name="instruc" id="instruc" cols="30" rows="10"></textarea>
+    </div>
+    <div id="col3" class="col">
+        <button id="ejecutar" title="EJECUTAR">&#9654;</button>
+        <button id="papelera">&#128465;</button>
+        <button id="info">i</button>
+    </div>
+</footer>
+<aside id="panelInfo">
+    <h2>Instrucciones</h2>
+    <div id="contenido">
+        <h3>1GL</h3>
+        <p>Instrucciones:</p>
+        <ul>
+            <li> 000, Borrar todo</li>
+            <li>001, Subir </li>
+            <li>010, Bajar</li>
+            <li>011, Izquierda</li>
+            <li>100, Derecha</li>
+            <li>101, Borrar</li>
+            <li>110, Pintar</li>
+            <li>111, Pintar todo </li>
+        </ul>
+        <h3>2GL</h3>
+        <p>Instrucciones: </p>
+        <ul>
+            <li>BOT, Borrar todo </li>
+            <li>SUB, Subir </li>
+            <li>BAJ, Bajar </li>
+            <li>IZQ, Izquierda </li>
+            <li>DER, Derecha </li>
+            <li>BOR, Borrar </li>
+            <li>PIN, Pintar </li>
+            <li>PIT, Pintar todo </li>
+        </ul>
+        <h3>3GL</h3>
+        <p>Instrucciones: </p>
+        <ul>
+            <li>BORRAR;</li>
+            <li>PINTAR;</li>
+            <li>BORRARTODO;</li>
+            <li>PINTARTODO;</li>
+            <li>MOVER <em>Dirección</em>; <br>
+                Posibilidades:<br>
+                <code>MOVER IZQUIERDA</code><br>
+                <code>MOVER DERECHA</code><br>
+                <code>MOVER ARRIBA</code><br>
+                <code>MOVER ABAJO;</code>
+            </li>
+            <li>PINTAR <em>Dirección</em>; <br>
+                Posibilidades:<br>
+                <code>PINTAR IZQUIERDA</code><br>
+                <code>PINTAR DERECHA</code><br>
+                <code>PINTAR ARRIBA</code><br>
+                <code>PINTAR ABAJO;</code>
+            </li>
+            <li>BORRAR <em>Dirección</em>; <br>
+                Posibilidades:<br>
+                <code>BORRAR IZQUIERDA</code><br>
+                <code>BORRAR DERECHA</code><br>
+                <code>BORRAR ARRIBA</code><br>
+                <code>BORRAR ABAJO;</code>
+            </li>
+            <li>REPETIR <em>Instruccion</em></em><em>Dirección</em> <em>Número</em>; <br>
+                Ejemplos:<br>
+                <code>REPETIR MOVER ABAJO 5;</code><br>
+                <code>REPETIR MOVER IZQUIERDA 3;</code><br>
+                <code>REPETIR PINTAR DERECHA 4;</code><br>
+                <code>REPETIR BORRAR IZQUIERDA 3;</code><br>
+
+            </li>
+            <li>CUADRADO <em>Número</em><br>
+                Ejemplo:<br>
+                <code>CUADRADO 4;</code><br>
+                <code>CUADRADO 7;</code><br>
+            </li>
+        </ul>
+    </div>
+    <button id="cerrar">X</button>
+</aside>
+<script src="js/maquina.js"></script>
+</body>
+</html>
